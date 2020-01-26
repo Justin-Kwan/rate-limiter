@@ -1,1 +1,12 @@
-A simple and reusable request rate-limiting microservice that protects external applications' endpoints, implementing gRPC and caching with Redis.
+A simple and reusable request rate-limiting microservice that protects external applications' endpoints, implemented with Fixed Window Counting.
+
+## Features
+
+
+
+
+
+
+gRPC and user request record caching is  Redis.
+
+
