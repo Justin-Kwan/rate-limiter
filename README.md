@@ -12,7 +12,7 @@ A simple and reusable request rate-limiting microservice that protects external 
 
 Clone this repo by typing into your terminal
 
-   git clone https://github.com/Justin-Kwan/Rate-Limiter
+      git clone https://github.com/Justin-Kwan/Rate-Limiter
    
 Make sure you have Node.js installed
 
