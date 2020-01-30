@@ -16,10 +16,10 @@ Make sure you have Node.js, npm and Redis installed
       $ git clone https://github.com/Justin-Kwan/Rate-Limiter
       
       # Change to directory containing index.js file
-      # cd Rate-Limiter/server/src
+      $ cd Rate-Limiter/server/src
       
       # start application
-      node index.js
+      $ node index.js
       
 ## Testing Locally
       
@@ -30,4 +30,4 @@ Make sure you have Node.js, npm and Redis installed
       $ redis-server
       
       # run tests
-      npm index.js
+      $ npm index.js
