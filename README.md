@@ -34,7 +34,7 @@ Make sure you have Node.js, npm and Redis installed
       
  ## GRPC API Access
  
- Rate-Limiter provides GRPC access via an unary call. The service request/response protocol buffer definitions are of the form:
+ Rate-Limiter provides GRPC access via an unary call. The service protocol buffer definitions are:
  
       # rate_limiter.proto
  
