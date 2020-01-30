@@ -14,5 +14,5 @@ Clone this repo by typing into your terminal
 
       git clone https://github.com/Justin-Kwan/Rate-Limiter
    
-Make sure you have Node.js installed
+Make sure you have Node.js and Redis installed
 
