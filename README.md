@@ -10,9 +10,24 @@ A simple and reusable request rate-limiting microservice that protects external 
 
 ## Running Locally
 
-Clone this repo by typing into your terminal
+Make sure you have Node.js, npm and Redis installed
 
-      git clone https://github.com/Justin-Kwan/Rate-Limiter
-   
-Make sure you have Node.js and Redis installed
-
+      # Clone this repo by typing into your terminal
+      $ git clone https://github.com/Justin-Kwan/Rate-Limiter
+      
+      # Change to directory containing index.js file
+      # cd Rate-Limiter/server/src
+      
+      # start application
+      node index.js
+      
+## Testing Locally
+      
+      # Change to server directory
+      $ cd Rate-Limiter/server
+      
+      # Start Redis server 
+      $ redis-server
+      
+      # run tests
+      npm index.js
