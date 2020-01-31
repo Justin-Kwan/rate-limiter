@@ -18,7 +18,7 @@ Make sure you have Node.js, npm and Redis installed
       # Change to directory containing index.js file
       $ cd Rate-Limiter/server/src
       
-      # start application
+      # Start application
       $ node index.js
       
 ## Testing Locally
@@ -29,8 +29,8 @@ Make sure you have Node.js, npm and Redis installed
       # Start Redis server 
       $ redis-server
       
-      # run tests
-      $ npm index.js
+      # Run tests
+      $ npm test
       
  ## GRPC API Access
  
