@@ -32,7 +32,7 @@ Make sure you have Node.js, npm and Redis installed
       # Run tests
       $ npm test
       
- ## gRPC API Access
+ ## gRPC Api Access
  
  Rate-Limiter provides gRPC access via an unary call. The service protocol buffer definitions are:
  
