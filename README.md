@@ -4,9 +4,9 @@ A simple and reusable request rate-limiting microservice that protects external 
 
 ## Features
 - Light-weight microservice which can be easily distributed and reused
-- Rate-Limiter is stateless, clients can choose specific configurations for time-windows, request limits, etc.
-- gRPC access to the API is provided, resulting in faster message transmissions and rigorous contracts
-- User key value records are cached in Redis
+- Stateless rate-limiting, where clients can choose specific configurations for time-windows, request limits, etc.
+- gRPC access to the API, resulting in faster message transmissions and rigorous contracts
+- Redis caching of user key-value records
 
 ## Running Locally
 
